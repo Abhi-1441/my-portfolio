@@ -23,7 +23,7 @@ const ProjectsArray = [
     description: "The project comprises of dynamic to-do list, where the user can make there personalised list.",
     techs: ["nodejs" ,"mongoose" ,"mongoDB" ,"express"],
     github: "https://github.com/Abhi-1441/To-do-List",
-    website: "https://to-do-list-beginner.vercel.app/"
+    website: "https://to-do-list-abhi.vercel.app/"
   },
   {
     title: "Tic-tac-toe",
