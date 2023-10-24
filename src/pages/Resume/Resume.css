@@ -1,0 +1,26 @@
+.resume{
+    margin: 3rem;
+}
+.resume .resume_heading{
+    font-size: 2.4rem;
+}
+
+.resume .resume_download_btn{
+    position: absolute;
+    right: 10%;
+    padding: 0.5% 1% ;
+    font-size: 1.3rem;
+    background-color: var(--primary-color-13);
+    border-radius: 0.5rem;
+}
+.resume .resume_download_btn:hover{
+    box-shadow: 0 0 3px 4px var(--primary-color-6);
+}
+.resume .resume_image_container{
+    display: flex;
+    justify-content: center;
+}
+.resume .resume_image{
+    padding-top: 4rem;
+    width: 70vw;
+}

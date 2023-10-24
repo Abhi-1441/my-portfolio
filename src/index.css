@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Roboto+Serif:ital,opsz@1,8..144&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz@1,8..144&family=Satisfy&display=swap');
+
+:root {
+  --primary-font: 'Roboto Serif', serif;
+  --secondary-font: 'Satisfy', cursive;
+}
+
+/* Light Mode */
+.light_theme {
+  --primary-color-1: #2d2d2d;
+  --primary-color-2: #005cac;
+  --primary-color-3: #1961de;
+  --primary-color-4: #05408c;
+  --primary-color-5: #1b46f0;
+  --primary-color-6: #1a1065;
+  --primary-color-7: #2504e5;
+  --primary-color-8: #424343;
+  --primary-color-9: rgb(157, 192, 245);
+  --primary-color-10: #b3b3b3;
+  --primary-color-11: rgba(195, 233, 253, 0.648);
+  --primary-color-12: #6c8d99;
+  --primary-color-13: #449bec;
+  --primary-color-14: #9900ff;
+  --primary-color-15: rgba(168, 129, 254, 0.826);
+  --primary-color-16: #8649e1;
+  --primary-color-17: #3c9dff;
+  --primary-color-18: rgba(90, 160, 130, 0.5);
+  --primary-color-19: rgba(112, 112, 112, 0.7);
+  --primary-color-20: white;
+
+  --primary-bg-gradient-1: linear-gradient(90deg, #A1C4FD 0%, #C2E9FB 100%);
+  --primary-bg-gradient-2: linear-gradient(90deg, #558DE8 0%, #93A5CF 100%);
+  --primary-bg-gradient-3: linear-gradient(329deg, rgba(202, 121, 214, 1) 2%, rgba(249, 127, 127, 1) 30%, rgba(144, 104, 236, 1) 49%, rgba(207, 0, 255, 0.75) 64%, rgba(58, 62, 255, 1) 100%);
+  --primary-bg-gradient-4: #558DE8;
+  --primary-bg-gradient-5: #7aa8f1;
+  --primary-bg-gradient-6: linear-gradient(116deg, rgba(213, 213, 184, 1) 0%, rgba(225, 253, 180, 1) 31%, rgba(225, 253, 180, 1) 50%, rgba(225, 253, 180, 1) 71%, rgba(176, 228, 250, 1) 99%);
+
+}
+
+.dark_theme {
+  --primary-color-1: aliceblue;
+  --primary-color-2: rgb(0, 255, 187);
+  --primary-color-3: rgb(155, 6, 155);
+  --primary-color-4: rgb(69, 69, 137);
+  --primary-color-5: rgb(0, 0, 0);
+  --primary-color-6: rgb(143, 214, 214);
+  --primary-color-7: rgba(139, 47, 182, 0.363);
+  --primary-color-8: rgb(135, 137, 138);
+  --primary-color-9: rgb(48, 48, 48);
+  --primary-color-10: rgb(85, 92, 92);
+  --primary-color-11: rgba(117, 0, 234, 0.322);
+  --primary-color-12: rgb(78, 105, 96);
+  --primary-color-13: rgb(68, 127, 255);
+  --primary-color-14: rgb(0, 15, 128);
+  --primary-color-15: rgba(255, 255, 255, 0.587);
+  --primary-color-16: rgb(62, 0, 119);
+  --primary-color-17: rgb(190, 225, 124);
+  --primary-color-18: rgba(0, 67, 49, 0.368);
+  --primary-color-19: rgba(111, 101, 44, 0.507);
+
+
+  --primary-bg-gradient-1: linear-gradient(57deg, rgba(0, 0, 0, 1) 5%, rgba(63, 0, 100, 1) 28%, rgba(4, 21, 40, 1) 50%, rgba(70, 0, 86, 1) 71%, rgba(0, 0, 0, 1) 100%);
+  --primary-bg-gradient-2: linear-gradient(90deg, rgba(180, 143, 255, 1) 0%, rgba(106, 23, 211, 1) 49%, rgba(31, 0, 72, 1) 100%);
+  --primary-bg-gradient-3: linear-gradient(329deg, rgba(202, 121, 214, 1) 2%, rgba(249, 127, 127, 1) 30%, rgba(144, 104, 236, 1) 49%, rgba(207, 0, 255, 0.75) 64%, rgba(58, 62, 255, 1) 100%);
+  --primary-bg-gradient-4: linear-gradient(147deg, rgba(23, 13, 13, 1) 5%, rgba(54, 0, 86, 1) 28%, rgba(67, 0, 103, 1) 50%, rgba(62, 0, 89, 1) 70%, rgba(5, 0, 6, 1) 100%);
+  --primary-bg-gradient-5: linear-gradient(0deg, rgba(57, 0, 127, 1) 0%, rgba(50, 0, 113, 1) 49%, rgba(31, 0, 72, 1) 100%);
+  --primary-bg-gradient-6: linear-gradient(116deg, rgba(169, 0, 255, 0.84) 12%, rgba(0, 166, 255, 0.85) 33%, rgba(0, 36, 255, 0.89) 99%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: var(--primary-font);
+  color: var(--primary-color-1);
+}
+
+body {
+  background: var(--primary-bg-gradient-1);
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  background: var(--primary-bg-gradient-5);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color-11);
+  border-radius: 1rem;
+}

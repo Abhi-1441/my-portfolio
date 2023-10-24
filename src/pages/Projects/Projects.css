@@ -1,0 +1,33 @@
+.projects {
+    margin: 2rem 5rem 0;
+}
+
+.projects .projects_heading {
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+}
+
+.projects .projects_container {
+    display: flex;
+    justify-content: center;
+    height: max-content;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:1320px) {
+    .projects {
+        margin: 2rem 2.7rem 0;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .projects {
+        margin: 2rem 5rem 0;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .project {
+        margin: 2rem 0rem 0;
+    }
+}

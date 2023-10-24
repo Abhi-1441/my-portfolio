@@ -1,0 +1,100 @@
+.hero_banner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+    margin-bottom: 6rem;
+}
+
+.hero_banner .hero_banner_content {
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    width: 30rem;
+}
+
+.hero_banner .hero_banner_content .greeting img {
+    height: 3rem;
+}
+
+.hero_banner .hero_banner_content .name {
+    padding-left: 2rem;
+    font-size: 4rem;
+    line-height: 5rem;
+    font-weight: 900;
+}
+
+.hero_banner .hero_banner_content .bio {
+    padding-top: 2rem;
+    font-size: 1.2rem;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+.hero_banner .photograph {
+    height: 30rem;
+}
+
+.hero_banner .designBox1 {
+    position: absolute;
+    top: 15rem;
+    left: 10rem;
+    height: 5rem;
+    width: 5rem;
+    background-color: var(--primary-color-18);
+    z-index: -10;
+    transform: rotate(45deg);
+}
+
+.hero_banner .designBox2 {
+    position: absolute;
+    top: 20rem;
+    left: 50rem;
+    height: 3rem;
+    width: 3rem;
+    background-color: var(--primary-color-19);
+    z-index: -10;
+    transform: rotate(30deg);
+}
+
+@media screen and (max-width : 810px) {
+
+    .hero_banner .hero_banner_content .greeting,
+    .name {
+        text-align: end;
+    }
+
+    .hero_banner .photograph {
+        position: absolute;
+        top: 6rem;
+        left: 3rem;
+        height: 15rem;
+        clip-path: circle(45%);
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width: 545px) {
+    .hero_banner {
+        margin-top: 12rem;
+        padding-bottom: 0;
+    }
+
+    .hero_banner .hero_banner_content .greeting {
+        text-align: start;
+        font-size: 1.2rem;
+    }
+
+    .hero_banner .hero_banner_content .greeting img {
+        height: 2rem;
+    }
+
+    .hero_banner .hero_banner_content .name {
+        font-size: 2.5rem;
+        text-align: start;
+        line-height: 3rem;
+    }
+
+    .hero_banner .hero_banner_content .bio {
+        font-size: 1rem;
+    }
+}

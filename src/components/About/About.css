@@ -1,0 +1,111 @@
+.about {
+    margin: 2rem 0rem 2rem 4rem;
+}
+.about *{
+    overflow: hidden;
+}
+
+.about .about_heading {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.about  .about_content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 4rem;
+    padding: 4rem;
+    justify-content: center;
+    border-radius: 1rem;
+    background-color: var(--primary-color-11);
+}
+
+.about  .about_content p {
+    text-indent: 2rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.about  .about_content .content_start {
+    text-indent: 0;
+}
+
+.about  .about_content .content_start::first-letter {
+    font-size: 2.5rem;
+}
+
+.about .container_heading {
+    margin: 4rem 0 0 3.5rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: 800;
+}
+
+.about hr {
+    background-color: var(--primary-color-3);
+    border: none;
+    border-radius: 2px;
+    height: 4px;
+    width: 15rem;
+    margin: 0.5rem 0 0 3.5rem;
+}
+
+@media screen and (max-width:1200px){
+    .about {
+        margin: 2rem 0rem 2rem 2rem;
+    }
+    .about .container_heading {
+        margin: 3rem 0 0 1rem;
+        font-size: 2.2rem;
+    }
+    .about hr {
+        width: 13rem;
+        margin: 0.5rem 0 0 0.8rem;
+    }
+}
+
+@media screen and (max-width:810px) {
+    .about .about_heading {
+        font-size: 1.8rem;
+        margin-bottom: 1.8rem;
+        margin-left: 1rem;
+    }
+
+    .about  .about_content {
+        margin: 0 1rem;
+        padding: 1.5rem;
+    }
+
+    .about  .about_content p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .about  .about_content .content_start::first-letter {
+        font-size: 2rem;
+    }
+
+    .about .container_heading {
+        margin: 3rem 0 0 0.5rem;
+        font-size: 2rem;
+    }
+
+    .about hr {
+        width: 11rem;
+        margin: 0.5rem 0 0 0.4rem;
+    }
+    .about .experience_container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        height: max-content;
+    }
+}
+@media screen and (max-width: 545px){
+    .about  .about_content {
+        margin-top: 0;
+    }
+}

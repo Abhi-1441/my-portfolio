@@ -1,0 +1,93 @@
+.contact {
+    margin: 2rem 4rem;
+}
+
+.contact .contact_heading {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+.contact .contact_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact .contact_container .my_image_container {
+    display: flex;
+    justify-content: center;
+}
+
+.contact .contact_container .my_image_container .my_image {
+    width: 8rem;
+    clip-path: circle(45%);
+}
+
+.contact .contact_container .freelancing_content {
+    width: 60%;
+    background-color: var(--primary-color-9 );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: justify;
+    padding: 2rem;
+}
+
+.contact .contact_container .freelancing_content .freelancing_text .direct_link {
+    color: var(--primary-color-2);
+}
+
+.contact .contact_container .freelancing_content .freelancing_text .direct_link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.contact .contact_container .freelancing_content .find_me_text {
+    padding-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.contact .contact_container .freelancing_content .mail {
+    margin: 1rem 0;
+    text-align: center;
+    font-size: 1.3rem;
+    font-style: italic;
+    color: var(--primary-color-17);
+}
+
+.contact .social_media_icons {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact .social_media_icons a {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.contact .social_media_icons i {
+    font-size: 1.8rem;
+}
+
+.contact .social_media_icons i:hover {
+    padding-left: 2%;
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width:790px) {
+    .contact {
+        margin: 2rem 1rem;
+    }
+
+    .contact .contact_container .freelancing_content .mail {
+        font-size: 1rem;
+    }
+}
