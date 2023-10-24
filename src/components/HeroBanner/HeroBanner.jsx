@@ -37,9 +37,6 @@ const HeroBanner = () => {
           </div>
         </div>
         <img src={MyPhoto} alt="Abhishek" className="photograph" />
-
-        <div className="designBox1" />
-        <div className="designBox2" />
       </div>
   )
 }
