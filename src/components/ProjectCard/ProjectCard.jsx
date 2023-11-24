@@ -24,16 +24,16 @@ const ProjectCard = (props) => {
             </a>
         }
         <div className="projectCard_techs_container">
-          {props.techs.map(tech => {
+          {props.techs.map((tech,index) => {
             return (
-              <div className="tech">{tech}</div>
+              <div className="tech" key={tech+'-'+index} >{tech}</div>
             );
           })}
         </div>
         <div className="projectCard_description">{props.description}</div>
         <div className="projectCard_links">
-          {props.github  ? <a href={props.github} target="_blank" rel="noopener noreferrer"><i class="fa fa-github "></i></a> : null}
-          {props.website  ? <a href={props.website} target="_blank" rel="noopener noreferrer"><i class="fa fa-external-link"></i></a> : null }
+          {props.github  ? <a href={props.github} target="_blank" rel="noopener noreferrer"><i className="fa fa-github "></i></a> : null}
+          {props.website  ? <a href={props.website} target="_blank" rel="noopener noreferrer"><i className="fa fa-external-link"></i></a> : null }
         </div>
       </div>
     </div>

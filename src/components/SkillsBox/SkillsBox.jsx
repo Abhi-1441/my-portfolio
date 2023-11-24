@@ -24,11 +24,11 @@ const SkillsBox = (props) => {
             </div>
             <div className="filtered_skills">
                 {
-                    Filter === 0 ?  AllSkills.map((skill)=>{ return(<div className="skill">{skill}</div> ) }): 
-                    Filter === 1 ?  frontEndSkills.map((skill)=>{ return(<div className="skill">{skill}</div> )  }): 
-                    Filter === 2 ?  backEndSkills.map((skill)=>{ return(<div className="skill">{skill}</div> )  }): 
-                    Filter === 3 ?  machineDevSkills.map((skill)=>{ return(<div className="skill">{skill}</div> )  }): 
-                    Filter === 4 ?  generalSkills.map((skill)=>{ return(<div className="skill">{skill}</div> ) }): 
+                    Filter === 0 ?  AllSkills.map((skill,index)=>{ return(<div className="skill" key={index}>{skill}</div> ) }): 
+                    Filter === 1 ?  frontEndSkills.map((skill,index)=>{ return(<div className="skill" key={index}>{skill}</div> )  }): 
+                    Filter === 2 ?  backEndSkills.map((skill,index)=>{ return(<div className="skill" key={index}>{skill}</div> )  }): 
+                    Filter === 3 ?  machineDevSkills.map((skill,index)=>{ return(<div className="skill" key={index}>{skill}</div> )  }): 
+                    Filter === 4 ?  generalSkills.map((skill,index)=>{ return(<div className="skill" key={index}>{skill}</div> ) }): 
                     null
                 }
             </div>

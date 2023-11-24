@@ -1,5 +1,6 @@
 import React from 'react';
 import './Resume.css';
+import { motion } from 'framer-motion';
 import ResumeImage from '../../assets/images/resume/Resume.png';
 import Resumepdf from '../../assets/images/resume/Abhishek\'s Resume.pdf'
 
@@ -14,7 +15,12 @@ const Resume = () => {
     }
 
     return (
-        <div className="resume">
+        <motion.div className="resume"
+            initial={{ scaleX: 0 }}
+            animate={{ scaleX: 1 }}
+            exit={{ scaleX: 0 }}
+            transition={{ duration: 0.5 }}
+        >
             <div className="resume_heading">
                 Resume
             </div>
@@ -22,7 +28,7 @@ const Resume = () => {
             <div className="resume_image_container">
                 <img className='resume_image' src={ResumeImage} alt="" />
             </div>
-        </div>
+        </motion.div>
     )
 }
 

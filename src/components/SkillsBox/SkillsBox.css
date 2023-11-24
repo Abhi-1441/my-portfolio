@@ -20,8 +20,8 @@
     font-size: 1.4rem;
 }
 .skillsBox .filter_btns_container .filter_btn:hover{
-    background-color: var(--primary-color-15);
-    color: var(--primary-color-1);
+    background-color: var(--primary-color-20);
+    color: var(--primary-color-13);
     cursor: pointer;
     box-shadow: 0 0 2px 3px var(--primary-color-15);
 }

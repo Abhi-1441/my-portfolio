@@ -60,7 +60,7 @@ const Navbar = () => {
             <img src={Logo} alt="A" className="navbar_logo" onClick={() => handleNavigation('/Home')} />
             <div className="navbar_links_container">
                 {page_Links.map((link) => (
-                    <span className="link_box">
+                    <span className="link_box" key={link+'-box'}>
                         <span
                             key={link}
                             className={`link ${location.pathname === '/' + link ? 'active' : ''}`}
