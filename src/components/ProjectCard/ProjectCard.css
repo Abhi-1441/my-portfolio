@@ -134,9 +134,10 @@
    }
 }
 @media screen and (max-width:495px){
-   /* .projectCard {
-      padding: 0.5rem ;
-   } */
+   .projectCard {
+      padding-top: 1rem;
+      box-shadow: none;
+   }
    .projectCard .projectCard_image_container{
       display: none;
    }

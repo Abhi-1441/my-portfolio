@@ -86,8 +86,22 @@
     .contact {
         margin: 2rem 1rem;
     }
-
+    .contact .contact_container .freelancing_content {
+        width: fit-content;
+        padding: 2rem 0.7rem;
+    }
     .contact .contact_container .freelancing_content .mail {
         font-size: 1rem;
+    }
+}
+@media screen and (max-width:340px){
+    .contact .contact_container .freelancing_content{
+        border-radius: 1rem;
+    }
+    .contact .contact_container .freelancing_content .freelancing_text{
+       display: none;
+    }
+    .contact .contact_container .freelancing_content .mail{
+        display:none;
     }
 }
