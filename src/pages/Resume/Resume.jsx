@@ -2,7 +2,7 @@ import React from 'react';
 import './Resume.css';
 import { motion } from 'framer-motion';
 import ResumeImage from '../../assets/images/resume/Resume.png';
-import Resumepdf from '../../assets/images/resume/Abhishek\'s Resume.pdf'
+import Resumepdf from '../../assets/images/resume/Abhishek Resume.pdf'
 
 const Resume = () => {
 

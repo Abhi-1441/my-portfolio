@@ -39,8 +39,8 @@ const ProjectsArray = [
     img: secretsImage,
     description: "The project uses the signIn with google facility or user account registration and login. User can share and read the secrets anonymously.",
     techs: ["nodejs", "mongoose", "mongoDB", "passport", "OAuth 2.0", "express"],
-    github: "https://github.com/Abhi-1441/Secrets",
-    website: "https://secrets-sigma.vercel.app/"
+    github: "https://github.com/Abhi-1441/Anonymously-Secrets-",
+    website: "https://anonymous-secrets-3dcx.onrender.com/"
   },
   {
     title: "Team Automatons",

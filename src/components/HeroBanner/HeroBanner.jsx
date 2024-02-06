@@ -3,7 +3,7 @@ import './HeroBanner.css';
 import Typewriter from "typewriter-effect";
 import MyPhoto from '../../assets/images/general/MyCartoon.png'
 import WavingHand from '../../assets/images/general/wave-hello.gif'
-
+import { motion } from 'framer-motion';
 const HeroBanner = () => {
   return (
     <div className="hero_banner">
@@ -36,7 +36,13 @@ const HeroBanner = () => {
             Dedicated to crafting seamless digital experiences through code and innovation. Experienced in MERN stack, I strive to create efficient and elegant solutions for complex challenges in the web development world😊.
           </div>
         </div>
+        <motion.div
+          initial = {{  scale:0}}
+          animate = {{  scale:1}}
+          transition={{ delay: 0.5, duration:1}}
+        >
         <img src={MyPhoto} alt="Abhishek" className="photograph" />
+        </motion.div>
       </div>
   )
 }
